@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class add
+{
+public static void main(String[] args)
+{
+    int a,b,c,sum;
+Scanner sc = new Scanner (System.in);
+System.out.println("Enter The First Number");
+a= sc .nextInt();
+System.out.println("Enter The Secound Number");
+b= sc.nextInt();
+System.out.println("Enter The Secound Number");
+c= sc.nextInt();
+sum=a+b+c;
+System.out.println("sum="+sum);
+
+String str  =sc.next();
+System.out.println(str);
+}
+}
